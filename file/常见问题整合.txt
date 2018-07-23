@@ -1,0 +1,5 @@
+remote origin already exists.
+1.先删除远程 Git 仓库
+$ git remote rm origin
+2.再添加远程 Git 仓库
+$ git remote add origin ....

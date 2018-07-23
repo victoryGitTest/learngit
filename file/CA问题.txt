@@ -1,0 +1,4 @@
+这个CA证书的问题，导致我不能上传代码，发现有个简单粗暴的方法：
+
+git config --global http.sslVerify false
+

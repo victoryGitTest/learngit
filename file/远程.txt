@@ -1,0 +1,13 @@
+远程：
+本地创建分支dev: $ git branch dev
+把本地分支提交到远程仓库: $ git push origin dev
+查看一下远程仓库有几个分支: git branch -a
+从远程获取最新版本到本地：git fetch origin master（远程仓库分支）:temp(本地创建temp分支)
+
+
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
